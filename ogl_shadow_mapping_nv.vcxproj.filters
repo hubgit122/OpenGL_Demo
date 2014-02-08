@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e8cf6bd6-add3-48f1-a575-d9296429d7e9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0e462df7-903e-4a57-9b50-89710df94056}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6c1452c0-5277-4bcf-83e9-3746291b4bac}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="codesampler.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\register_combiners.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\render_depth_texture.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\sgix_depth_texture.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\sgix_shadow.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\wgl_pbuffer.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\ARB_depth_texture.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\arb_render_texture.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\ARB_shadow.txt">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\NV_render_depth_texture.txt">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ogl_shadow_mapping_nv.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wglext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ogl_shadow_mapping_nv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
